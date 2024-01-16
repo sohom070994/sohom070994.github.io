@@ -1,0 +1,64 @@
+header:
+  title: "Your Full Name"
+  sub_title: "Your Area of Expertise"
+  image: "pexels-christina-morillo-1181686-square.jpg"
+  text: |
+    Add a short summary section that lets your visitors know who you are, what you do, who it affects.
+    The rest of the text in this section is gibberish. I've used the text to fill up the space that you
+    might fill up with actual useful content.
+  buttons:
+    - text: "Get In Touch"
+      url: "#x"
+    - text: "Teaching"
+      url: "#x"
+
+projects:
+  title: "Projects"
+  list:
+    - title: "Indulge in the vast array of handcrafted blends and single-origin coffees"
+      contributors: "Prof. Jane X. Researcher, Dr. Michael Y. Collaborator"
+      abstract: "Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger."
+      pdf: "/documents/project.pdf"
+    - title: "Indulge in the vast array of handcrafted blends and single-origin coffees"
+      contributors: "Prof. Jane X. Researcher, Dr. Michael Y. Collaborator"
+      abstract: "Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger."
+      pdf: "/documents/project.pdf"
+    - title: "Indulge in the vast array of handcrafted blends and single-origin coffees"
+      contributors: "Prof. Jane X. Researcher, Dr. Michael Y. Collaborator"
+      abstract: "Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger."
+      pdf: "/documents/project.pdf"
+
+teaching:
+  title: "Teaching"
+  list:
+    - title: "Course: Indulge in the vast array of handcrafted blends"
+      school: "Institution: XYZ University"
+      text: |
+        This introductory course provides an overview of the principles of quantum computing.
+        Topics covered include quantum mechanics fundamentals, quantum gates, quantum algorithms,
+        and applications in areas such as cryptography and optimization.
+news:
+  title: "News"
+
+affiliations:
+  title: "Professional Affiliations"
+
+contact:
+  title: "Contact"
+  list:
+    - email:
+      text: "Email"
+      url: "mailto:name@example.com"
+      icon: "envelope-square.svg"
+    - linkedin:
+      text: "linkedIn"
+      url: "#"
+      icon: "linkedin-original.svg"
+    - researchgate:
+      text: "ResearchGate"
+      url: "#"
+      icon: "researchgate.svg"
+    - academia_edu:
+      text: "Academia.edu"
+      url: "#"
+      icon: "academia-square.svg"
