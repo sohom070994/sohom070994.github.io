@@ -9,14 +9,16 @@
           {{project.title}}
         </p>
         <p class="fs-5 text-body-secondary">
-          Prof. Jane X. Researcher, Dr. Michael Y. Collaborator
+          {{project.contributors}}
         </p>
         <div class="d-md-flex justify-content-between">
             <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-              <button class="btn btn-outline-secondary btn-sm px-2 me-md-2" type="button" data-bs-toggle="collapse" data-bs-target="#project-{{forloop.index}}" aria-expanded="false" aria-controls="collapseExample">
-                ABSTRACT
+              <button class="btn btn-outline-secondary btn-sm px-2 me-md-2 text-uppercase" type="button" data-bs-toggle="collapse" data-bs-target="#project-{{forloop.index}}" aria-expanded="false" aria-controls="collapseProject{{forloop.index}}">
+                {{site.data.hometext.projects.abstract_button_text}}
               </button>
-              <a href="{{project.pdf}}" class="btn btn-outline-secondary btn px-2 me-md-2">PDF</a>
+              <a href="{{project.pdf}}" class="btn btn-outline-secondary btn px-2 me-md-2 text-uppercase">
+                  {{site.data.hometext.projects.pdf_button_text}}
+              </a>
             </div>
             <div class="d-md-flex justify-content-md-start align-items-center">
               <span class="px-2 me-md-2 text-uppercase">{{project.status}}</span>
@@ -25,7 +27,7 @@
         <div class="p-3 pb-md-4 mx-auto border-bottom">
           <div class="collapse" id="project-{{forloop.index}}">
             <div class="card card-body fs-5">
-              <p>Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.</p>
+              <p>{{project.abstract_text}}</p>
             </div>
           </div>
         </div>

@@ -6,7 +6,7 @@
       <div class="p-3 pb-md-4 text-center">
         {% for item in site.data.hometext.contact.list %}
         <a href="{{item.url}}" class="fs-4 me-3 text-body-secondary text-decoration-none">
-          <img src="/assets/images/{{item.icon}}" width="100">
+          <img src="{{item.icon}}" width="100">
           <span>{{item.text}}</span>
         </a>
         {% endfor %}
