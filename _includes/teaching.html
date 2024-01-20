@@ -1,0 +1,35 @@
+<div class="container col-xxl-8 px-4 py-5 py-lg-10" id="teaching">
+  <div class="p-3 pb-md-4 mx-auto text-center">
+    <h2 class="h1 text-uppercase">{{site.data.hometext.teaching.title}}</h2>
+  </div>
+  {% for course in site.data.hometext.teaching.list %}
+  <div class="p-3 pb-md-4 mx-auto">
+    <h3 class="fs-3 text-body-secondary">
+      {{course.title}}
+    </h3>
+    <p class="fs-5 text-body-secondary">
+      {{course.school}}
+    </p>
+    <p class="fs-5">
+      {{course.text}}
+    </p>
+    <div class="d-md-flex justify-content-between">
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <a href="https://example.com" class="btn btn-outline-secondary btn-sm px-2 me-md-2 text-uppercase">Course Materials</a>
+        </div>
+        <div class="d-md-flex justify-content-md-start align-items-center">
+            <span class="px-2 me-md-2 text-uppercase">{{course.role}}</span>
+            <span class="px-2 me-md-2 text-uppercase">{{course.period}}</span>
+        </div>
+    </div>
+    <div class="p-3 pb-md-4 mx-auto border-bottom">
+      <div class="collapse" id="collapseExample">
+        <div class="card card-body">
+          Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+        </div>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+<!-- End of Teaching -->

@@ -1,0 +1,16 @@
+<div class=" bg-body-tertiary" id="news">
+    <div class="container col-xxl-8 px-4 py-5 py-lg-10">
+      <div class="p-3 pb-md-4 text-center">
+        <h2 class="h1 text-uppercase">{{site.data.hometext.news.title}}</h2>
+      </div>
+      {% for item in site.data.hometext.news.list %}
+      <div class="border-bottom d-md-flex align-items-center justify-content-between p-4 py-md-7">
+        <a class="text-body-secondary text-decoration-none fs-5" href="{{item.url}}">
+          {{item.text}}
+        </a>
+        <span class="text-uppercase">{{item.date}}</span>
+      </div>
+      {% endfor %}
+    </div>
+</div>
+<!-- End of News -->
