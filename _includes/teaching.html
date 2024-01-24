@@ -1,9 +1,9 @@
-<div class="container col-xxl-8 px-4 py-5 py-lg-10" id="teaching">
-  <div class="p-3 pb-md-4 mx-auto text-center">
+<div class="container col-xxl-8 px-6 py-8 py-lg-10" id="teaching">
+  <div class="p-3 pb-md-6 mx-auto text-center">
     <h2 class="h1 text-uppercase">{{site.data.hometext.teaching.title}}</h2>
   </div>
   {% for course in site.data.hometext.teaching.list %}
-  <div class="p-3 pb-md-4 mx-auto">
+  <div class="px-3 py-8 pb-md-6 mx-auto border-bottom">
     <h3 class="fs-3 text-body-secondary">
       {{course.title}}
     </h3>
@@ -13,13 +13,15 @@
     <p class="fs-5">
       {{course.text}}
     </p>
-    <div class="d-md-flex justify-content-between">
-        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-            <a href="{{course.button_link}}" class="btn btn-outline-secondary btn-sm px-2 me-md-2 text-uppercase">{{course.button_text}}</a>
+    <div class="d-md-flex justify-content-between pt-4">
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start pb-4">
+            <a href="{{course.button_link}}" class="btn btn-outline-primary btn-sm px-2 me-md-2 text-uppercase
+btn btn-outline-primary btn-sm px-2 me-md-2 text-uppercase px-md-4 py-md-3
+            ">{{course.button_text}}</a>
         </div>
         <div class="d-md-flex justify-content-md-start align-items-center">
-            <span class="px-2 me-md-2 text-uppercase">{{course.role}}</span>
-            <span class="px-2 me-md-2 text-uppercase">{{course.period}}</span>
+            <div class="px-2 me-md-2 text-uppercase mb-4 mb-md-0">{{course.role}}</div>
+            <div class="px-2 me-md-2 text-uppercase">{{course.period}}</div>
         </div>
     </div>
   </div>

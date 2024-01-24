@@ -1,30 +1,30 @@
 <div class=" bg-body-tertiary" id="projects">
-    <div class="container col-xxl-8 px-4 py-5 py-lg-10">
+    <div class="container col-xxl-8 px-6 py-8 py-lg-10">
       <div class="p-3 pb-md-4 mx-auto text-center">
         <h2 class="h1 text-uppercase">{{site.data.hometext.projects.title}}</h2>
       </div>
       {% for project in site.data.hometext.projects.list %}
-      <div class="p-3 pb-md-4 mx-auto">
+      <div class="p-3 py-6 pb-md-6 mx-auto">
         <p class="fs-3 text-body-secondary">
           {{project.title}}
         </p>
         <p class="fs-5 text-body-secondary">
           {{project.contributors}}
         </p>
-        <div class="d-md-flex justify-content-between">
+        <div class="d-md-flex justify-content-between b-6">
             <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-              <button class="btn btn-outline-secondary btn-sm px-2 me-md-2 text-uppercase" type="button" data-bs-toggle="collapse" data-bs-target="#project-{{forloop.index}}" aria-expanded="false" aria-controls="collapseProject{{forloop.index}}">
+              <button class="btn btn-outline-primary btn-sm me-md-2 text-uppercase px-4" type="button" data-bs-toggle="collapse" data-bs-target="#project-{{forloop.index}}" aria-expanded="false" aria-controls="collapseProject{{forloop.index}}">
                 {{site.data.hometext.projects.abstract_button_text}}
               </button>
-              <a href="{{project.pdf}}" class="btn btn-outline-secondary btn px-2 me-md-2 text-uppercase">
+              <a href="{{project.pdf}}" class="btn btn-outline-primary btn-sm me-md-2 text-uppercase px-4 pt-md-3">
                   {{site.data.hometext.projects.pdf_button_text}}
               </a>
             </div>
-            <div class="d-md-flex justify-content-md-start align-items-center">
+            <div class="d-md-flex justify-content-md-start align-items-center mt-6">
               <span class="px-2 me-md-2 text-uppercase">{{project.status}}</span>
             </div>
         </div>
-        <div class="p-3 pb-md-4 mx-auto border-bottom">
+        <div class="p-3 pb-md-6 mx-auto border-bottom">
           <div class="collapse" id="project-{{forloop.index}}">
             <div class="card card-body fs-5">
               <p>{{project.abstract_text}}</p>
