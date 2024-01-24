@@ -1,0 +1,15 @@
+<div class=" bg-body-tertiary" id="contact">
+    <div class="container col-xxl-8 px-6 py-8 py-lg-10">
+      <div class="p-3 pb-md-6 text-center">
+        <h2 class="h1 text-uppercase">{{site.data.hometext.contact.title}}</h2>
+      </div>
+      <div class="p-3 pb-md-4 text-center">
+        {% for item in site.data.hometext.contact.list %}
+        <a href="{{item.url}}" class="fs-4 text-body-secondary text-decoration-none">
+          <img src="{{item.icon}}" width="100">
+          <span class="d-none d-lg-inline-block">{{item.text}}</span>
+        </a>
+        {% endfor %}
+      </div>
+    </div>
+</div>

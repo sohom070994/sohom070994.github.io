@@ -1,0 +1,20 @@
+<div class="container col-xxl-8 px-6 py-8 py-lg-10">
+  <div class="row flex-lg-row justify-content-between align-items-center g-5 py-6">
+    <div class="col-md-6">
+      <h1 class="h-1 mb-2">{{site.data.hometext.header.title}}</h1>
+      <p class="fs-3 fw-medium mb-3">{{site.data.hometext.header.sub_title}}</p>
+      <p class="fs-5 mb-4">{{site.data.hometext.header.text}}</p>
+      <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+        {% for button in site.data.hometext.header.buttons %}
+        <a href="{{button.url}}" class="btn btn-lg px-8 rounded text-uppercase {% if forloop.first %} btn-primary me-md-2 {% else %} btn-outline-primary {% endif %}">{{button.text}}</a>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="col-md-5">
+      <div>
+        <img src="{{site.data.hometext.header.image}}" alt="Photo of {{site.data.hometext.header.title}}" class="d-block mx-lg-auto img-fluid object-fit-cover" width="600" height="600">
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End of Hero -->

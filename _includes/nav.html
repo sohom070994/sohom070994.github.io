@@ -1,0 +1,23 @@
+<nav class="navbar navbar-expand-lg bg-white border-bottom">
+  <div class="container col-xxl-8">
+    <a class="navbar-brand" href="/">{{site.title}}</a>
+    <span class="navbar-toggler border-0 px-0">
+      <button class="border-0 bg-transparent collapse multi-collapse show" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-controls=" navbarOpen navbarClose navbarContent" aria-expanded="false" aria-label="close button" id="navbarOpen">
+        <img src="/assets/images/menu-alt-lined.svg" alt="open" width="30px" height="30px">
+      </button>
+      <button class="border-0 bg-transparent collapse multi-collapse" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-controls="navbarOpen navbarClose navbarContent" aria-expanded="false" aria-label="close button" id="navbarClose">
+        <img src="/assets/images/close-menu.svg" alt="close"  width="30px" height="30px">
+      </button>
+    </span>
+    <div class="collapse multi-collapse navbar-collapse" id="navbarContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        {% for item in site.data.navigation %}
+        <li class="nav-item">
+          <a class="nav-link fs-5{% if item.url == page.url %} active{% endif %}" {% if item.url == page.url %} aria-current="page"{% endif %} href="{{item.url}}">{{item.title}}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- End of Navbar -->
