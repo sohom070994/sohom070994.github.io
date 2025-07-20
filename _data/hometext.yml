@@ -9,7 +9,7 @@ header:
   buttons:
     - text: "Get In Touch"
       url: "#contact"
-    - text: "Teaching"
+    - text: "Download Resume"
       url: "#teaching"
 
 projects:
@@ -48,65 +48,66 @@ teaching:
       period: "Spring 2024"
       button_text: "Course Materials"
       button_link: "https://example.com"
-    - title: "Course: Indulge in the vast array of handcrafted blends"
-      school: "Institution: XYZ University"
+    - title: "Course: BSE 5113 001 Principles of Epidemiology"
+      school: "Institution: Department of Biostatistics and Epidemiology, Hudson College of Public Health, OUHSC"
       text: |
-        This introductory course provides an overview of the principles of quantum computing.
-        Topics covered include quantum mechanics fundamentals, quantum gates, quantum algorithms,
-        and applications in areas such as cryptography and optimization.
-      role: "Visiting Professor"
-      period: "winter 2023"
-      button_text: "Course Materials"
-      button_link: "https://example.com"
-    - title: "Course: Indulge in the vast array of handcrafted blends"
-      school: "Institution: XYZ University"
-      text: |
-        This introductory course provides an overview of the principles of quantum computing.
-        Topics covered include quantum mechanics fundamentals, quantum gates, quantum algorithms,
-        and applications in areas such as cryptography and optimization.
+        Conducted a special class on Case Control and Cohort Epidemiological Studies. 
+        Guided students through critical evaluation of study designs and methods used 
+        in investigation, calculation and interpretation of measures of association, and
+        identification of bias and error in epidemiologic research. 
       role: "Instructor"
-      period: "Spring 2022"
+      period: "Spring 2025"
       button_text: "Course Materials"
       button_link: "https://example.com"
-news:
-  title: "News"
-  list:
-    - text: "Presenting at Annual BioInformatics Conference"
-      url: "https://example.com"
-      date: "10 Jul 2024"
-    - text: "Published a Paper on Plants Intelligence on Plants Research Journal"
-      url: "https://example.com"
-      date: "12 Dec 2023"
-    - text: "Presented at Connect The Dots Conference"
-      url: "https://example.com"
-      date: "19 Sep 2024"
+    # - title: "Course: Indulge in the vast array of handcrafted blends"
+    #   school: "Institution: XYZ University"
+    #   text: |
+    #     This introductory course provides an overview of the principles of quantum computing.
+    #     Topics covered include quantum mechanics fundamentals, quantum gates, quantum algorithms,
+    #     and applications in areas such as cryptography and optimization.
+    #   role: "Instructor"
+    #   period: "Spring 2022"
+    #   button_text: "Course Materials"
+    #   button_link: "https://example.com"
+# news:
+#   title: "News"
+#   list:
+#     - text: "Presenting at Annual BioInformatics Conference"
+#       url: "https://example.com"
+#       date: "10 Jul 2024"
+#     - text: "Published a Paper on Plants Intelligence on Plants Research Journal"
+#       url: "https://example.com"
+#       date: "12 Dec 2023"
+#     - text: "Presented at Connect The Dots Conference"
+#       url: "https://example.com"
+#       date: "19 Sep 2024"
 
-affiliations:
-  title: "Professional Affiliations"
-  list:
-    - text: "Quantum Computing Society, Member"
-      period: "2020 - Present"
-    - text: "Machine Learning Association, Fellow"
-      period: "2021 - Present"
-    - text: "Bionic Zero Research Society, Member"
-      period: "2019 - Present"
+# affiliations:
+#   title: "Professional Affiliations"
+#   list:
+#     - text: "Quantum Computing Society, Member"
+#       period: "2020 - Present"
+#     - text: "Machine Learning Association, Fellow"
+#       period: "2021 - Present"
+#     - text: "Bionic Zero Research Society, Member"
+#       period: "2019 - Present"
 
 contact:
   title: "Contact"
   list:
     - email:
       text: "Email"
-      url: "mailto:name@example.com"
+      url: "mailto:gargingp@gmail.com"
       icon: "/assets/images/envelope-square.svg"
     - linkedin:
-      text: "linkedIn"
-      url: "https://linkedin.com"
+      text: "LinkedIn"
+      url: "https://www.linkedin.com/in/gargingp/"
       icon: "/assets/images/linkedin-original.svg"
-    - researchgate:
-      text: "ResearchGate"
-      url: "https://researchgate.com"
-      icon: "/assets/images/researchgate.svg"
-    - academia_edu:
-      text: "Academia.edu"
-      url: "https://academia.edu"
-      icon: "/assets/images/academia-square.svg"
+    - google_scholar:
+      text: "Google Scholar"
+      url: "https://scholar.google.com/citations?user=_qCXeScAAAAJ&hl=en&oi=sra"
+      icon: "/assets/images/gs120.png"
+    # - academia_edu:
+    #   text: "Academia.edu"
+    #   url: "https://academia.edu"
+    #   icon: "/assets/images/academia-square.svg"
