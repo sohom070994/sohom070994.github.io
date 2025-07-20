@@ -36,14 +36,16 @@ projects:
 teaching:
   title: "Teaching"
   list:
-    - title: "Course: Indulge in the vast array of handcrafted blends"
-      school: "Institution: XYZ University"
+    - title: "Course: BSE 5193 001 Intermediate Epidemiologic Methods"
+      school: "Institution:  Department of Biostatistics and Epidemiology, Hudson College of Public Health, OUHSC"
       text: |
-        This introductory course provides an overview of the principles of quantum computing.
-        Topics covered include quantum mechanics fundamentals, quantum gates, quantum algorithms,
-        and applications in areas such as cryptography and optimization.
-      role: "Instructor"
-      period: "Fall 2024"
+        This is a second level course in epidemiologic methods. This course focuses on 
+        methods used in the design and conduct of observational epidemiologic studies. 
+        The emphasis is placed on the different types of study designs, selected analytical 
+        methods, identification and avoidance of biases and confounding, examination of 
+        data for interactions, and concepts of causation. 
+      role: "Teaching Assistant"
+      period: "Spring 2024"
       button_text: "Course Materials"
       button_link: "https://example.com"
     - title: "Course: Indulge in the vast array of handcrafted blends"
