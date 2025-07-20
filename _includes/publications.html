@@ -1,0 +1,43 @@
+<div class="bg-body-tertiary" id="publications">
+  <div class="container col-xxl-8 px-6 py-8 py-lg-10">
+    <div class="p-3 pb-md-4 mx-auto text-center">
+      <h2 class="h1 text-uppercase">Publications</h2>
+    </div>
+    {% for pub in site.data.hometext.publications.list %}
+    <div class="p-3 py-6 pb-md-6 mx-auto">
+      <p class="fs-3 text-body-secondary mb-1">{{ pub.title }}</p>
+      <p class="fs-5 text-body-secondary mb-1"><strong>Authors:</strong> {{ pub.authors }}</p>
+      <p class="fs-6 text-body-secondary mb-1"><strong>Journal:</strong> {{ pub.journal }}</p>
+      <p class="fs-6 text-body-secondary mb-1"><strong>Year:</strong> {{ pub.year }}</p>
+      <div class="d-md-flex justify-content-between b-6">
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          {% if pub.abstract %}
+          <button class="btn btn-outline-primary btn-sm me-md-2 text-uppercase px-4" type="button" data-bs-toggle="collapse" data-bs-target="#pub-{{forloop.index}}" aria-expanded="false" aria-controls="collapsePub{{forloop.index}}">
+            Abstract
+          </button>
+          {% endif %}
+          {% if pub.link %}
+          <a href="{{ pub.link }}" class="btn btn-outline-primary btn-sm me-md-2 text-uppercase px-4 pt-md-3" target="_blank">
+            Full Text
+          </a>
+          {% endif %}
+        </div>
+        <div class="d-md-flex justify-content-md-start align-items-center mt-6">
+          <span class="px-2 me-md-2 text-uppercase">{{ pub.status }}</span>
+        </div>
+      </div>
+      <div class="p-3 pb-md-6 mx-auto border-bottom">
+        {% if pub.abstract %}
+        <div class="collapse" id="pub-{{forloop.index}}">
+          <div class="card card-body fs-5">
+            <p>{{ pub.abstract }}</p>
+          </div>
+        </div>
+        {% endif %}
+      </div>
+    </div>
+    <!-- End of publication -->
+    {% endfor %}
+  </div>
+  <!-- End of Publications -->
+</div>

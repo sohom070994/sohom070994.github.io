@@ -1,0 +1,20 @@
+
+<div class="bg-light" id="education">
+  <div class="container col-xxl-8 px-6 py-8 py-lg-10">
+    <div class="p-3 pb-md-4 mx-auto text-center">
+      <h2 class="h1 text-uppercase mb-4">Education</h2>
+    </div>
+    {% for edu in site.data.hometext.education %}
+    <div class="p-3 py-6 pb-md-6 mx-auto">
+      <h3 class="fs-3 text-body-secondary mb-2">{{ edu.degree }}</h3>
+      <p class="fs-5 text-body-secondary mb-1"><strong>University:</strong> {{ edu.university }}</p>
+      <p class="fs-6 text-body-secondary mb-1"><strong>Years:</strong> {{ edu.years }}</p>
+      {% if edu.courses %}
+      <p class="fs-6 text-body-secondary mb-0"><strong>Relevant Coursework:</strong> {{ edu.courses | join: ', ' }}</p>
+      {% endif %}
+    </div>
+    <!-- End of education entry -->
+    {% endfor %}
+  </div>
+  <!-- End of Education -->
+</div>

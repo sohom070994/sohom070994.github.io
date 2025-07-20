@@ -1,0 +1,23 @@
+<div class="bg-body-tertiary" id="work"></div>
+  <div class="container col-xxl-8 px-6 py-8 py-lg-10">
+    <div class="p-3 pb-md-4 mx-auto text-center">
+      <h2 class="h1 text-uppercase">Work Experience</h2>
+    </div>
+    {% for job in site.data.hometext.work_experience.list %}
+    <div class="p-3 py-6 pb-md-6 mx-auto">
+      <p class="fs-3 text-body-secondary mb-1">{{ job.position }}</p>
+      <p class="fs-5 text-body-secondary mb-1"><strong>Organization:</strong> {{ job.organization }}</p>
+      <p class="fs-6 text-body-secondary mb-1"><strong>Years:</strong> {{ job.years }}</p>
+      <p class="fs-6 text-body-secondary mb-1"><strong>Location:</strong> {{ job.location }}</p>
+      {% if job.description %}
+      <p class="fs-6 text-body-secondary mb-1"><strong>Description:</strong> {{ job.description }}</p>
+      {% endif %}
+      {% if job.responsibilities %}
+      <p class="fs-6 text-body-secondary mb-0"><strong>Responsibilities:</strong> {{ job.responsibilities | join: ', ' }}</p>
+      {% endif %}
+    </div>
+    <!-- End of work entry -->
+    {% endfor %}
+  </div>
+  <!-- End of Work Experience -->
+</div>

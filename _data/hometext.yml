@@ -92,6 +92,84 @@ teaching:
 #     - text: "Bionic Zero Research Society, Member"
 #       period: "2019 - Present"
 
+education:
+  - degree: "Ph.D. in Epidemiology"
+    university: "University of Oklahoma Health Sciences Center"
+    years: "2022 - Present"
+    courses:
+      - "Advanced Infectious Disease Modeling"
+      - "Biostatistics"
+      - "Public Health Surveillance"
+  - degree: "Master of Public Health in Epidemiology"
+    university: "Texas A&M University"
+    years: "2019 - 2021"
+    courses:
+      - "Epidemiology"
+      - "Health Policy"
+      - "Environmental Health"
+  - degree: "Bacherlor of Dental Surgery"
+    university: "Krishna Institute of Medical Sciences, Karad"
+    years: "2013 - 2018"
+    # courses:
+    #   - "General Medicine"
+    #   - "Surgery"
+    #   - "Oral Pathology"
+
+publications:
+  title: "Publications"
+  list:
+    - title: "Modeling the Spread of Infectious Diseases in Urban Environments"
+      authors: "Gargi Deshpande, John Smith, Priya Patel"
+      journal: "Journal of Epidemiology Research"
+      year: "2024"
+      abstract: "This study presents a novel approach to modeling infectious disease spread in densely populated urban areas using agent-based simulations."
+      link: "https://example.com/publication1"
+      status: "Published"
+    - title: "Impact of Vaccination Strategies on Disease Control"
+      authors: "Gargi Deshpande, Michael Lee"
+      journal: "International Journal of Public Health"
+      year: "2023"
+      abstract: "We evaluate the effectiveness of various vaccination strategies in controlling outbreaks of infectious diseases."
+      link: "https://example.com/publication2"
+      status: "Published"
+    - title: "Surveillance Systems for Emerging Pathogens"
+      authors: "Gargi Deshpande, Jane Doe"
+      journal: "Epidemiology Today"
+      year: "2022"
+      abstract: "A review of surveillance systems and their role in early detection of emerging infectious diseases."
+      link: "https://example.com/publication3"
+      status: "In Review"
+
+work_experience:
+  title: "Work Experience"
+  list:
+    - position: "Research Scientist"
+      organization: "Centers for Disease Control and Prevention (CDC)"
+      years: "2024 - Present"
+      location: "Atlanta, GA, USA"
+      description: "Leading research projects on infectious disease modeling and outbreak response."
+      responsibilities:
+        - "Developed agent-based models for disease spread."
+        - "Coordinated multi-disciplinary teams for outbreak investigations."
+        - "Published findings in peer-reviewed journals."
+    - position: "Epidemiology Analyst"
+      organization: "World Health Organization (WHO)"
+      years: "2022 - 2024"
+      location: "Geneva, Switzerland"
+      description: "Analyzed global epidemiological data and contributed to policy recommendations."
+      responsibilities:
+        - "Prepared reports for international health policy."
+        - "Conducted statistical analysis of surveillance data."
+        - "Presented research at international conferences."
+    - position: "Public Health Intern"
+      organization: "Texas Department of State Health Services"
+      years: "2021 - 2022"
+      location: "Austin, TX, USA"
+      description: "Supported public health initiatives and data collection efforts."
+      responsibilities:
+        - "Assisted in field surveys and data entry."
+        - "Helped organize community health workshops."
+
 contact:
   title: "Contact"
   list:
@@ -106,7 +184,7 @@ contact:
     - google_scholar:
       text: "Google Scholar"
       url: "https://scholar.google.com/citations?user=_qCXeScAAAAJ&hl=en&oi=sra"
-      icon: "/assets/images/gs120.png"
+      icon: "/assets/images/gs240120.png"
     # - academia_edu:
     #   text: "Academia.edu"
     #   url: "https://academia.edu"
