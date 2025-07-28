@@ -10,9 +10,8 @@
   url: "/#projects"
 - title: "Teaching"
   url: "/#teaching"
-
-# - title: "News"
-#   url: "/#news"
+- title: "Awards"
+  url: "/#awards"
 # - title: "Affiliations"
 #   url: "/#affiliations"
 - title: "Contact"

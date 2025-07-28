@@ -1,0 +1,26 @@
+<div class="bg-body-tertiary" id="awards">
+  <div class="container col-xxl-8 px-6 py-8 py-lg-10">
+    <div class="p-3 pb-md-4 mx-auto text-center">
+      <h2 class="h1 text-uppercase">Awards & Honors</h2>
+    </div>
+    {% for award in site.data.hometext.awards.list %}
+    <div class="p-3 py-6 pb-md-6 mx-auto">
+      <p class="fs-3 text-body-secondary mb-1">{{ award.title }}</p>
+      <p class="fs-5 text-body-secondary mb-1"><strong>Organization:</strong> {{ award.organization }}</p>
+      <p class="fs-6 text-body-secondary mb-1"><strong>Year:</strong> {{ award.year }}</p>
+      {% if award.description %}
+      <p class="fs-6 text-body-secondary mb-1"><strong>Description:</strong> {{ award.description }}</p>
+      {% endif %}
+      {% if award.link %}
+      <ul class="list-unstyled mb-0">
+        <li>
+          <a href="{{ award.link }}" class="link-primary" target="_blank" rel="noopener">🔗 More Info</a>
+        </li>
+      </ul>
+      {% endif %}
+    </div>
+    <!-- End of award entry -->
+    {% endfor %}
+  </div>
+  <!-- End of Awards & Honors -->
+</div>
