@@ -2,10 +2,7 @@ header:
   title: "Gargi Deshpande"
   sub_title: "Infectious Disease Epidemiologist"
   image: "/assets/images/IMG_6317.jpg"
-  text: |
-    Add a short summary section that lets your visitors know who you are, what you do, who it affects.
-    The rest of the text in this section is gibberish. I've used the text to fill up the space that you
-    might fill up with actual useful content.
+  text: "I'm a third-year PhD student in Epidemiology at the University of Oklahoma Health Sciences Center (Hudson College of Public Health) and a Graduate Research Assistant in the Department of Biostatistics and Epidemiology. My research focuses on early outbreak detection of infectious diseases, especially through wastewater surveillance. I'm particularly interested in how climate change, land use, and human-animal interactions drive the emergence of vector-borne diseases. Most recently, my work has explored the determinants of tick- and mosquito-borne illnesses in the U.S. using a One Health approach."
   buttons:
     - text: "Get In Touch"
       url: "#contact"
@@ -139,14 +136,14 @@ publications:
   title: "Publications"
   list:
     - title: "Wastewater-Based Surveillance for Influenza and Respiratory Syncytial Virus: Insights from a 21-month study in Oklahoma"
-      authors: "Deshpande, G., Beetch, J. E., Heller, J. G., Naqvi, O. H., Kuhn, K. G."
+      authors: "Deshpande, G., Rimal, B., Shelton, K., Vogel, J., Stevenson, B. Kuhn, K. G."
       # journal: "Journal of Epidemiology Research"
       year: "2025"
       # abstract: "This study presents a novel approach to modeling infectious disease spread in densely populated urban areas using agent-based simulations."
       # link: "10.3390/microorganisms12010050"
       status: "In Review"
     - title: "Assessing the Influence of Climate Change and Environmental Factors on the Top Tick-Borne Diseases in the United States: A Systematic Review"
-      authors: "Deshpande, G., Rimal, B., Shelton, K., Vogel, J., Stevenson, B. Kuhn, K. G."
+      authors: "Deshpande, G., Beetch, J. E., Heller, J. G., Naqvi, O. H., Kuhn, K. G."
       journal: "Microorganisms"
       year: "2023"
       abstract: "In the United States (US), tick-borne diseases (TBDs) have more than doubled in the past fifteen years and are a major contributor to the overall burden of vector-borne diseases. The most common TBDs in the US-Lyme disease, rickettsioses (including Rocky Mountain spotted fever), and anaplasmosis-have gradually shifted in recent years, resulting in increased morbidity and mortality. In this systematic review, we examined climate change and other environmental factors that have influenced the epidemiology of these TBDs in the US while highlighting the opportunities for a One Health approach to mitigating their impact. We searched Medline Plus, PUBMED, and Google Scholar for studies focused on these three TBDs in the US from January 2018 to August 2023. Data selection and extraction were completed using Covidence, and the risk of bias was assessed with the ROBINS-I tool. The review included 84 papers covering multiple states across the US. We found that climate, seasonality and temporality, and land use are important environmental factors that impact the epidemiology and patterns of TBDs. The emerging trends, influenced by environmental factors, emphasize the need for region-specific research to aid in the prediction and prevention of TBDs."
