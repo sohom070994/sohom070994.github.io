@@ -53,6 +53,14 @@ projects:
 teaching:
   title: "Teaching"
   list:
+    - title: "Course: BSE 5333 001 Introduction to Emerging Infections and Bioterrorism"
+      school: "Institution:  Department of Biostatistics and Epidemiology, Hudson College of Public Health, OUHSC"
+      text: |
+        I delivered a guest lecture on Emerging Infections: Vector-Borne Diseases, highlighting case studies that showcased digital and technological advances in disease surveillance. To provide hands-on experience, I also designed and facilitated an outbreak investigation exercise simulating an Mpox outbreak in a sparring clinic. This activity introduced students to applied epidemiologic methods, including the use of pivot tables in Excel to calculate attack rates, bridging theoretical knowledge with practical analytical skills.  
+      role: "Instructor"
+      period: "Fall 2025"
+      button_text: "Course Materials"
+      button_link: "https://example.com"
     - title: "Course: BSE 5193 001 Intermediate Epidemiologic Methods"
       school: "Institution:  Department of Biostatistics and Epidemiology, Hudson College of Public Health, OUHSC"
       text: |
