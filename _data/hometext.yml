@@ -7,7 +7,7 @@ header:
     - text: "Get In Touch"
       url: "#contact"
     - text: "Download Resume"
-      url: "#teaching"
+      url: "/assets/pdf/Gargi_Deshpande_Resume.pdf"
 
 projects:
   title: "Projects"
