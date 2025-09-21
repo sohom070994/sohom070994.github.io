@@ -2,7 +2,7 @@ header:
   title: "Gargi Deshpande"
   sub_title: "Infectious Disease Epidemiologist"
   image: "/assets/images/IMG_6317.jpg"
-  text: "I'm a fourth-year PhD student in Epidemiology at the University of Oklahoma Health Sciences Center (Hudson College of Public Health) and a Graduate Research Assistant in the Department of Biostatistics and Epidemiology. My research focuses on early outbreak detection of infectious diseases, especially through wastewater surveillance. I'm particularly interested in how climate change, land use, and human-animal interactions drive the emergence of vector-borne diseases. Most recently, my work has explored the determinants of tick- and mosquito-borne diseases in the U.S. using a One Health approach."
+  text: "I'm a fourth-year PhD student in Epidemiology at the University of Oklahoma Health Sciences Center (Hudson College of Public Health) and a Graduate Research Assistant in the Department of Biostatistics and Epidemiology. My research focuses on early outbreak detection of infectious diseases, especially through wastewater surveillance. I'm particularly interested in how climate change, land use, and human-animal interactions drive the emergence of vector-borne diseases. Most recently, my work has explored the determinants of tick and mosquito-borne diseases in the U.S. using a One Health approach."
   buttons:
     - text: "Get In Touch"
       url: "#contact"
@@ -189,7 +189,7 @@ publications:
       journal: "PROSPERO International prospective register of systematic reviews"
       year: "2020"
       # abstract: "A review of surveillance systems and their role in early detection of emerging infectious diseases."
-      link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11624676/#:~:text=Results,of%20integration%20into%20everyday%20life."
+      link: "https://oaktrust.library.tamu.edu/server/api/core/bitstreams/fa4fc723-6a94-4046-8fae-1d809bbb0019/content"
       status: "Published"
 
 work_experience:
