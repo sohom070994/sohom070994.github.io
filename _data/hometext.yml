@@ -137,7 +137,7 @@ publications:
   list:
     - title: "Wastewater-Based Surveillance for Influenza and Respiratory Syncytial Virus: Insights from a 21-month study in Oklahoma"
       authors: "Deshpande, G., Rimal, B., Shelton, K., Vogel, J., Stevenson, B. Kuhn, K. G."
-      # journal: "Journal of Epidemiology Research"
+      journal: "Epidemics"
       year: "2025"
       # abstract: "This study presents a novel approach to modeling infectious disease spread in densely populated urban areas using agent-based simulations."
       # link: "10.3390/microorganisms12010050"
