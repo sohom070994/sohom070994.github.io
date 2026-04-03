@@ -7,7 +7,7 @@ header:
     - text: "Get In Touch"
       url: "#contact"
     - text: "Download Resume"
-      url: "/assets/pdf/example-project-document.pdf"
+      url: "/assets/pdf/test.pdf"
 
 projects:
   title: "Projects"
