@@ -51,5 +51,8 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+exclude:
+  - CLAUDE.md
+
 sass:
   style: :compressed
