@@ -2,7 +2,7 @@ header:
   title: "Gargi Deshpande"
   sub_title: "Infectious Disease Epidemiologist"
   image: "/assets/images/ProPic2026.jpeg"
-  text: "I'm an Infectious Disease Epidemiologist who completed my PhD in Epidemiology at the University of Oklahoma Health Sciences Center (Hudson College of Public Health) in July 2026. I will be joining the Department of Biology, Health, and the Environment at the University of Texas at San Antonio as a Post Doctoral Fellow starting September 2026. My research focuses on early outbreak detection of infectious diseases, especially through wastewater surveillance. I'm particularly interested in how climate change, land use, and human-animal interactions drive the emergence of vector-borne diseases. Most recently, my work has explored the determinants of tick and mosquito-borne diseases in the U.S. using a One Health approach."
+  text: "I'm an Infectious Disease Epidemiologist. I completed my PhD in Epidemiology at the University of Oklahoma Health Sciences Center (Hudson College of Public Health) in 2026. Beginning September 2026, I will be joining the University of Texas at San Antonio as a Post Doctoral Fellow in the Department of Biology, Health, and the Environment. My research focuses on early outbreak detection of infectious diseases, especially through wastewater surveillance. I'm particularly interested in how climate change, land use, and human-animal interactions drive the emergence of vector-borne diseases, with recent work exploring the determinants of tick and mosquito-borne diseases in the U.S. using a One Health approach."
   buttons:
     - text: "Get In Touch"
       url: "#contact"
@@ -120,7 +120,7 @@ teaching:
 education:
   - degree: "Ph.D. in Epidemiology"
     university: "University of Oklahoma Health Sciences Center"
-    years: "2022 - July 2026"
+    years: "2022 - 2026"
     courses:
       - "Advanced Infectious Disease Modeling"
       - "Biostatistics"
