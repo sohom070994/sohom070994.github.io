@@ -9,6 +9,9 @@
       <p class="fs-5 text-body-secondary mb-1"><strong>Organization:</strong> {{ job.organization }}</p>
       <p class="fs-6 text-body-secondary mb-1"><strong>Years:</strong> {{ job.years }}</p>
       <p class="fs-6 text-body-secondary mb-1"><strong>Location:</strong> {{ job.location }}</p>
+      {% if job.department %}
+      <p class="fs-6 text-body-secondary mb-1"><strong>Department:</strong> {{ job.department }}</p>
+      {% endif %}
       {% if job.description %}
       <p class="fs-6 text-body-secondary mb-1"><strong>Description:</strong> {{ job.description }}</p>
       {% endif %}
