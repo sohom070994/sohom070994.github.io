@@ -54,3 +54,15 @@
 
 // Utilities
 @import "bootstrap/scss/utilities/api";
+
+// Hero typography
+.hero-title {
+  @include font-size($h1-font-size * 1.05);
+  font-weight: $font-weight-bold;
+}
+
+.hero-subtitle {
+  @include font-size($h3-font-size * .9);
+  font-weight: $font-weight-medium;
+  font-style: italic;
+}
