@@ -20,7 +20,7 @@
         <div class="col">
           <figure class="figure h-100 w-100 mb-0 text-center">
             <img src="{{ photo.image | relative_url }}"
-                 alt="{{ photo.alt | default: photo.caption | default: item.title }}"
+                 alt="{{ photo.alt | default: photo.caption | default: item.title | strip_html | escape }}"
                  class="figure-img img-fluid rounded shadow-sm mb-2"
                  style="max-height: 20rem; width: auto;"
                  loading="lazy">
