@@ -66,3 +66,12 @@
   font-weight: $font-weight-medium;
   font-style: italic;
 }
+
+// Inline heading usable inside the hero `text` field in _data/hometext.yml
+.hero-text-heading {
+  display: block;
+  margin-bottom: .25rem;
+  font-size: 1.2em; // relative to the surrounding paragraph
+  font-weight: $font-weight-semibold;
+  color: $primary;
+}
