@@ -1,0 +1,19 @@
+{% assign beyond = site.data.hometext["beyond-research"] %}
+<div class="bg-body-tertiary" id="beyond-research">
+  <div class="container col-xxl-8 px-6 py-8 py-lg-10">
+    <div class="p-3 pb-md-4 mx-auto text-center">
+      <h2 class="h1 text-uppercase">{{beyond.title}}</h2>
+    </div>
+    {% for item in beyond.list %}
+    <div class="px-3 py-6 pb-md-6 mx-auto border-bottom">
+      <h3 class="fs-3 text-body-secondary">
+        {{item.title}}
+      </h3>
+      <p class="fs-5">
+        {{item.text}}
+      </p>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+<!-- End of Beyond Research -->
