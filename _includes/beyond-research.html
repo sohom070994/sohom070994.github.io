@@ -9,9 +9,29 @@
       <h3 class="fs-3 text-body-secondary">
         {{item.title}}
       </h3>
+      {% if item.text %}
       <p class="fs-5">
         {{item.text}}
       </p>
+      {% endif %}
+      {% if item.photos %}
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4 mt-2">
+        {% for photo in item.photos %}
+        <div class="col">
+          <figure class="figure h-100 w-100 mb-0">
+            <img src="{{ photo.image | relative_url }}"
+                 alt="{{ photo.alt | default: photo.caption | default: item.title }}"
+                 class="figure-img img-fluid rounded shadow-sm w-100 mb-2"
+                 style="aspect-ratio: 4 / 3; object-fit: cover;"
+                 loading="lazy">
+            {% if photo.caption %}
+            <figcaption class="figure-caption text-center">{{ photo.caption }}</figcaption>
+            {% endif %}
+          </figure>
+        </div>
+        {% endfor %}
+      </div>
+      {% endif %}
     </div>
     {% endfor %}
   </div>

@@ -270,12 +270,28 @@ work_experience:
 beyond-research:
   title: "Beyond Research"
   list:
+    # Drop photos in assets/images/beyond/ and list them here.
+    # Each photo needs an `image` path; `caption` and `alt` are optional.
     - title: "Running"
-      text: "I am passionate about mentoring the next generation of public health professionals. I actively engage with students and early-career researchers, providing guidance on research projects, career development, and navigating the complexities of the public health landscape. Additionally, I participate in community outreach programs to promote health literacy and awareness about infectious diseases."
+      photos:
+        - image: "/assets/images/beyond/running-1.jpg"
+          caption: "First half marathon"
+        - image: "/assets/images/beyond/running-2.jpg"
+          caption: "Morning miles around the lake"
+        - image: "/assets/images/beyond/running-3.jpg"
+          caption: "Race day with the running group"
     - title: "Hiking"
-      text: "Effective communication of scientific findings is crucial for public understanding and policy-making. I contribute to science communication efforts by writing articles for public health blogs, participating in webinars, and presenting research findings at conferences. My goal is to make complex epidemiological concepts accessible to a broader audience."
+      photos:
+        - image: "/assets/images/beyond/hiking-1.jpg"
+          caption: "Summit views"
+        - image: "/assets/images/beyond/hiking-2.jpg"
+          caption: "Weekend trail in the Wichitas"
     - title: "Reading"
-      text: "Effective communication of scientific findings is crucial for public understanding and policy-making. I contribute to science communication efforts by writing articles for public health blogs, participating in webinars, and presenting research findings at conferences. My goal is to make complex epidemiological concepts accessible to a broader audience."
+      photos:
+        - image: "/assets/images/beyond/reading-1.jpg"
+          caption: "Current stack"
+        - image: "/assets/images/beyond/reading-2.jpg"
+          caption: "Favorite reading spot"
 
 
 contact:
