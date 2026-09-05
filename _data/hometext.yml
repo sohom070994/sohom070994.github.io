@@ -267,6 +267,17 @@ work_experience:
       #   - "Assisted in field surveys and data entry."
       #   - "Helped organize community health workshops."
 
+beyond_research:
+  title: "Beyond Research"
+  list:
+    - title: "Running"
+      text: "I am passionate about mentoring the next generation of public health professionals. I actively engage with students and early-career researchers, providing guidance on research projects, career development, and navigating the complexities of the public health landscape. Additionally, I participate in community outreach programs to promote health literacy and awareness about infectious diseases."
+    - title: "Hiking"
+      text: "Effective communication of scientific findings is crucial for public understanding and policy-making. I contribute to science communication efforts by writing articles for public health blogs, participating in webinars, and presenting research findings at conferences. My goal is to make complex epidemiological concepts accessible to a broader audience."
+    - title: "Reading"
+      text: "Effective communication of scientific findings is crucial for public understanding and policy-making. I contribute to science communication efforts by writing articles for public health blogs, participating in webinars, and presenting research findings at conferences. My goal is to make complex epidemiological concepts accessible to a broader audience."
+
+
 contact:
   title: "Contact"
   list:
