@@ -55,6 +55,14 @@
 // Utilities
 @import "bootstrap/scss/utilities/api";
 
+// Tiled pattern backdrop for the hero section
+.hero-bg {
+  background-color: $white;
+  background-image: url("/assets/images/moroccan-flower.png");
+  background-repeat: repeat;
+  background-size: 400px 400px;
+}
+
 // Hero typography
 .hero-title {
   @include font-size($h1-font-size * 1.05);
