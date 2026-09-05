@@ -62,8 +62,8 @@
 }
 
 .hero-subtitle {
-  @include font-size($h3-font-size * .5);
-  font-weight: $font-weight-medium;
+  @include font-size($h3-font-size * .75);
+  font-weight: $font-weight-medium;   
   font-style: italic;
 }
 
