@@ -283,15 +283,15 @@ beyond-research:
     - title: "Hiking"
       photos:
         - image: "/assets/images/beyond/hiking-1.jpg"
-          caption: "Summit views at Todna Fort, Maharashtra, India"
+          caption: "Summit views at Torna Fort, Maharashtra, India"
         - image: "/assets/images/beyond/hiking-2.jpg"
           caption: "The Grand Canyon, dressed in winter"
     - title: "Reading"
       photos:
         - image: "/assets/images/beyond/reading-1.jpg"
           caption: 'I review books for fun <a href="https://www.instagram.com/readby.gargi/" target="_blank" rel="noopener">here</a>'
-        - image: "/assets/images/beyond/reading-2.jpg"
-          caption: "Favorite reading spot"
+        # - image: "/assets/images/beyond/reading-2.jpg"
+        #   caption: "Favorite reading spot"
 
 
 contact:
